@@ -33,6 +33,12 @@ data: () => {
                     link: "#",
                     blog_image: "icon.png"
                 },
+                {
+                    title: "Here is why I use the same placeholder image for everything",
+                    contents: "Because I'm still setting this site up!",
+                    link: "#",
+                    blog_image: "icon.png"
+                },
             ]
         }
     }

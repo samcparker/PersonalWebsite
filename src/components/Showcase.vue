@@ -41,10 +41,10 @@
                 let snapshot = await db.collection('projects').get();
                 let projects = [];
                 snapshot.forEach(doc => {
-                    console.log(doc.data());
+            
                     projects.push(doc.data());
                 });
-                console.log(projects);
+      
                 this.projects = projects;
             }
         },

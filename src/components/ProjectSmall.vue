@@ -1,6 +1,6 @@
 <template>
     <v-row style="max-width: 100%">
-        <v-col sm="12" md="5">
+        <v-col xs="12" sm="12" md="5" lg="5" xl="5">
             <!-- <v-img style="max-height: 10rem" :src="require('@/assets/images/' + project.project_image + '')">
 
             </v-img> -->
@@ -8,7 +8,7 @@
 
             </v-img>
         </v-col>
-        <v-col sm="12" md="7">
+        <v-col xs="12" sm="12" md="5" lg="5" xl="5">
             <v-row class="flex-column">
                 <div>
 
