@@ -1,7 +1,10 @@
 <template>
     <v-row style="max-width: 100%">
         <v-col sm="12" md="5">
-            <v-img style="max-height: 10rem" :src="require('@/assets/images/' + project.project_image + '')">
+            <!-- <v-img style="max-height: 10rem" :src="require('@/assets/images/' + project.project_image + '')">
+
+            </v-img> -->
+            <v-img style="max-height: 10rem" src="@/assets/images/logo.png">
 
             </v-img>
         </v-col>
@@ -10,14 +13,14 @@
                 <div>
 
 
-                    <v-tooltip v-for="(icon, j) in project.icons" :key="j" bottom>
+                    <v-tooltip v-for="(icon, j) in project.icons" :key="j" top>
                         <template #activator="{ on }">
                             <v-chip class="mr-2" v-on="on">
-                                <v-icon color="grey" class="mr-1">{{ icon.mdi }}</v-icon>
+                                <v-icon color="grey" class="mr-1">{{ icon }}</v-icon>
                             </v-chip>
 
                         </template>
-                        <span>{{ icon.tooltip }}</span>
+                        <span>{{ j }}</span>
                     </v-tooltip>
                 </div>
                 <h1>{{ project.title }}</h1>

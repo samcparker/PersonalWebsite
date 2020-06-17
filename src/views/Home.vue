@@ -12,7 +12,7 @@
           
         </div>
         <div class="d-flex justify-center mt-3 mb-15">
-         <p><a href="#">about me</a> | <a href="#">projects</a> | <a href="#">blog</a> | <a href="https://www.github.com/samcparker" target="_blank">github</a></p>
+         <p><a href="#" disabled>about me</a> | <a href="#" disabled>projects</a> | <a href="#" disabled>blog</a> | <a href="https://www.github.com/samcparker" target="_blank">github</a></p>
           
         </div>
 
