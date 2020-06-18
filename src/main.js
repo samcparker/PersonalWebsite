@@ -6,6 +6,7 @@ import store from './store'
 import vuetify from './plugins/vuetify';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
+import 'firebase/storage';
 
 Vue.config.productionTip = false
 
@@ -20,6 +21,8 @@ firebase.initializeApp({
 });
 
 export const db = firebase.firestore(); 
+export const storage = firebase.storage(); 
+
 new Vue({
   router,
   store,
